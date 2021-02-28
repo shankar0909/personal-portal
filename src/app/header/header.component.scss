@@ -1,0 +1,36 @@
+.uni{
+    background-color:rgba(145,13,13,.8) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+ .avatar {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+ .me-name label {
+     color:#FFFFFF;
+    font-weight: 500;
+    font: 20px Roboto, Helvetica, sans-serif;
+    margin-top: 0.5em;
+}
+
+.me-desig label {
+    color:#dfd5d5;
+    font: 14px Roboto, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+
+}
+.icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+.social-icons a {
+   color: #dfd5d5;
+}

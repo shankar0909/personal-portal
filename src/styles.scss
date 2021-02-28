@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+    margin:0;
+    padding:0;
+    font: 14px/1.5 Verdana,sans-serif;
+
+}
+
+  .content-wrapper {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+  }
+
+.page-header{
+    margin-top: 2em;
+}
+
+.page-header h6 {
+    line-height: 1;
+    color: #555;
+    font-weight: 600;
+    font-size: 1.8rem;
+}

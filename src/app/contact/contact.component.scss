@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.contact-msg{
+    margin: 1em 0;
+}
+
+
+.container label{
+    color: #555;
+}
+
+.container  i {
+    color:rgba(145,13,13,.8);
+
+}
+
+.container a {
+    color: rgba(145,13,13,.8);
+    margin-left: 10px;
+
+}
+
+.social {
+    margin-top: 1em;
+}
