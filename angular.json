@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "personal-portal"
+  "defaultProject": "personal-portal",
+  "cli": {
+    "analytics": "411178b2-7447-4b70-bc03-c43ad54b121a"
+  }
 }
