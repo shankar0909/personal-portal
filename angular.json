@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "personal-portal:build"
+            "buildTarget": "personal-portal:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "personal-portal:build:production"
+              "buildTarget": "personal-portal:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "personal-portal:build"
+            "buildTarget": "personal-portal:build"
           }
         },
         "test": {
