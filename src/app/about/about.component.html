@@ -1,5 +1,10 @@
 <div class="container">
     <pdf-viewer [src]="pdfSource"
-                [original-size]="false"
+                [render-text]="true"
+                [show-all]="true"
+                [fit-to-page]="true"
+                [zoom]="1.0"
+                style="display: block; width: 100%; height: 100vh;"
+                >
     ></pdf-viewer>
   </div>
