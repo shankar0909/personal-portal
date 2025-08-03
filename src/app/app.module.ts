@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { NotesComponent } from './notes/notes.component';
 import { ContactComponent } from './contact/contact.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { HuggingFaceChatbotComponent } from './hugging-face-chatbot/hugging-face-chatbot.component';
 
 
 
@@ -26,7 +27,8 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    PdfViewerModule
+    PdfViewerModule,
+    HuggingFaceChatbotComponent
   ],
   providers: [ ],
   bootstrap: [AppComponent]

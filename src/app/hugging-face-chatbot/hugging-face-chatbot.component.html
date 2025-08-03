@@ -1,0 +1,20 @@
+  <!-- <iframe
+	src="https://shankar0909-my-professional-chatbot.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
+></iframe> -->
+<div class="chat-icon" (click)="toggleChat()">
+  💬
+</div>
+@if(isOpen) {
+  <div class="chat-popup">
+    <button class="close-btn" (click)="toggleChat()">✖</button>
+    <iframe
+      src="https://shankar0909-my-professional-chatbot.hf.space"
+      width="350"
+      height="500"
+      style="border:none;"
+    ></iframe>
+  </div>
+}
