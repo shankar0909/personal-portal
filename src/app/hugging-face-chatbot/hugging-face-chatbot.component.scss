@@ -22,13 +22,11 @@
   right: 24px;
   width: 360px;
   height: 530px;
-//   background: white;
-//   border: 1px solid #ccc;
+  background: black;
+  border: 1px solid #ccc;
   z-index: 1000;
-//   box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-//   border-radius: 8px;
-  overflow: hidden;
-  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  border-radius: 8px;
 }
 
 .close-btn {
